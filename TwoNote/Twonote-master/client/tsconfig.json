@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "rootDir": "./src"
+  },
+  "extends": "..",
+  "include": [
+    "./src"
+  ]
+}

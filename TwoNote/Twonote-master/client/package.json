@@ -1,0 +1,24 @@
+{
+  "name": "@twonote/client",
+  "private": true,
+  "dependencies": {
+    "@twonote/types": "file:../types",
+    "babel-polyfill": "^6.26.0",
+    "csstips": "^1.2.0",
+    "csx": "^10.0.1",
+    "hookrouter": "^1.2.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typestyle": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/hookrouter": "^2.2.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "parcel": "^1.12.4"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead"
+  ]
+}
