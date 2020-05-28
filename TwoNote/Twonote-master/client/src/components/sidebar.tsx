@@ -18,11 +18,11 @@ export default function Sidebar({
             left: -90,
             overflowX: "hidden",
             height: "100%",
-            width: "100px",
+            width: "95px",
             position: "fixed",
             backgroundColor: "#111",
             zIndex: 1,
-            paddingLeft: "20px",
+            paddingLeft: "10px",
           },
           {
             $nest: {

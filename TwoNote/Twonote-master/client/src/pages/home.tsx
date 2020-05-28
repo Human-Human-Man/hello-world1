@@ -15,7 +15,7 @@ export default function Home(): ReactNode {
         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.shTp6YyrNCWXT1SCI6sXqwHaKF%26pid%3DApi&f=1"
       ></img>
       <Text>
-        Welcome the the epic TwoNote Home PAge.
+        Welcome the the epic TwoNote Home Page.
         <br />
         In case {"you're"} confused, TwoNote is my attempt to one-up OneNote:
         1+1 = 2.
