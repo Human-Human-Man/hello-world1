@@ -9,7 +9,7 @@ export default function sChat(): ReactNode {
       <Text>This is the notes section</Text>
       <br />
       <A href="/">
-        <Button>Go Home</Button>
+        <Button>Go and Die. Become a better Coder you loser.</Button>
       </A>
     </>
   );

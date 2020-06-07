@@ -1,5 +1,6 @@
 import * as colors from "../styles/colors";
 
+
 import React, { ReactNode } from "react";
 import { classes, style } from "typestyle";
 
@@ -25,15 +26,15 @@ export default function Button({
       className={classes(
         className,
         style(
-          circle && { borderRadius: "50%" },
-          colors.style(color, 5),
+          circle && { borderRadius: "100%" },
+          colors.style(color, 6),
           transparent ? { backgroundColor: "transparent" } : shadow(3),
           {
             $nest: {
-              "&&:hover": colors.style(color, 6)
+              "&&:hover": colors.style(color, 8)
             },
             border: "none",
-            transition: "background-color 200ms, color 200ms"
+            transition: "background-color 200ms, color 900ms"
           }
         )
       )}

@@ -36,12 +36,15 @@ export default function Sidebar({
       <A href="/">
         <Button>Home</Button>
       </A>
+      <br />
       <A href="/notes">
         <Button>Notes</Button>
       </A>
+      <br />
       <A href="/chat">
         <Button>Chat</Button>
       </A>
+
       <A href="/calendar">
         <Button>Calendar</Button>
       </A>

@@ -47,5 +47,5 @@ export function style(
 }
 
 export const grey = getColorPalette({ saturation: 0 });
-export const accent = getColorPalette({ hue: 270 });
+export const accent = getColorPalette({ hue: 34 });
 export const error = getColorPalette({ hue: 0 });
