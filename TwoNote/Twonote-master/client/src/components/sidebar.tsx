@@ -45,7 +45,11 @@ export default function Sidebar({
         <Button>Chat</Button>
       </A>
 
-      <A href="/calendar">
+      <A href="/Homework">
+        <Button>Homework</Button>
+      </A>
+
+      <A href="/Calendar">
         <Button>Calendar</Button>
       </A>
     </div>

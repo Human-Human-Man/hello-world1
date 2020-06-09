@@ -33,6 +33,9 @@ export default function Chat(): ReactNode {
         <A href="/">
         <Button>Become a better Coder you loser.</Button>
       </A>
+      <br/>
+        <br/>
+        <br/>
       </>
     )
   }
