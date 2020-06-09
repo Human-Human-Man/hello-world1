@@ -18,15 +18,15 @@ export default function Sidebar({
             left: -90,
             overflowX: "hidden",
             height: "500%",
-            width: "95px",
+            width: "110px",
             position: "fixed",
             backgroundColor: "#111",
             zIndex: 1,
-            paddingLeft: "10px",
+            paddingLeft: "5px",
           },
           {
             $nest: {
-              "&&:hover": { left:0.1 },
+              "&&:hover": { left:0.2 },
             },
             transition: "left 400ms",
           }
@@ -45,11 +45,11 @@ export default function Sidebar({
         <Button>Chat</Button>
       </A>
 
-      <A href="/Homework">
+      <A href="/homework">
         <Button>Homework</Button>
       </A>
 
-      <A href="/Calendar">
+      <A href="/calendar">
         <Button>Calendar</Button>
       </A>
     </div>

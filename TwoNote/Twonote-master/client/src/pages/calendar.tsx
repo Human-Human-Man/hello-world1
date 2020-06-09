@@ -4,7 +4,7 @@ import { style } from "typestyle";
 import { A } from "hookrouter";
 import Button from "../components/button";
 
-export default function Chat(): ReactNode {
+export default function Calendar(): ReactNode {
     return (
       <>
         <Text size={3} weight="bold">

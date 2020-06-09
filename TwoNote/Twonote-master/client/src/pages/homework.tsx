@@ -6,9 +6,9 @@ import { A } from "hookrouter";
 export default function Homework(): ReactNode {
   return (
     <>
-      <Text>This is the notes section</Text>
+      <Text>This is the homework section</Text>
       <br />
-      <A href="/">
+      <A href="/calendar">
         <Button>Become a better Coder you loser.</Button>
       </A>
     </>
