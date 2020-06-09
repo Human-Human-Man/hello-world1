@@ -17,7 +17,7 @@ export default function Sidebar({
             top: 0,
             left: -90,
             overflowX: "hidden",
-            height: "100%",
+            height: "500%",
             width: "95px",
             position: "fixed",
             backgroundColor: "#111",
@@ -26,9 +26,9 @@ export default function Sidebar({
           },
           {
             $nest: {
-              "&&:hover": { left: 0 },
+              "&&:hover": { left:0.1 },
             },
-            transition: "left 500ms",
+            transition: "left 400ms",
           }
         )
       )}
