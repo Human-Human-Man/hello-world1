@@ -18,11 +18,11 @@ export default function Sidebar({
             left: -90,
             overflowX: "hidden",
             height: "500%",
-            width: "110px",
+            width: "100px",
             position: "fixed",
             backgroundColor: "#111",
             zIndex: 1,
-            paddingLeft: "5px",
+            paddingLeft: "1px",
           },
           {
             $nest: {
@@ -34,23 +34,23 @@ export default function Sidebar({
       )}
     >
       <A href="/">
-        <Button>Home</Button>
+        <Button className={style({width: "95px", height: "50px"})}>Home</Button>
       </A>
       <br />
       <A href="/notes">
-        <Button>Notes</Button>
+        <Button className={style({width: "95px", height: "50px"})}>Notes</Button>
       </A>
       <br />
       <A href="/chat">
-        <Button>Chat</Button>
+        <Button className={style({width: "95px", height: "50px"})}>Chat</Button>
       </A>
 
       <A href="/homework">
-        <Button>Homework</Button>
+        <Button className={style({width: "95px", height: "50px"})}>Homework</Button>
       </A>
 
       <A href="/calendar">
-        <Button>Calendar</Button>
+        <Button className={style({width: "95px", height: "50px"})}>Calendar</Button>
       </A>
     </div>
   );

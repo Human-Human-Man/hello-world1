@@ -26,12 +26,12 @@ export default function Button({
       className={classes(
         className,
         style(
-          circle && { borderRadius: "100%" },
-          colors.style(color, 5),
+          circle && { borderRadius: "50%" },
+          colors.style(color, 0),
           transparent ? { backgroundColor: "transparent" } : shadow(3),
           {
             $nest: {
-              "&&:hover": colors.style(color, 6)
+              "&&:hover": colors.style(color, 2)
             },
             border: "none",
             transition: "background-color 200ms, color 200ms"

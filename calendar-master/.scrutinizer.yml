@@ -1,0 +1,18 @@
+filter:
+    excluded_paths:
+        - 'js/public/*'
+        - 'l10n/*'
+
+
+imports:
+    - javascript
+    - php
+
+tools:
+    external_code_coverage:
+        timeout: 1000
+
+build:
+    tests:
+        override:
+            -  jshint-run --config js/.jshintrc

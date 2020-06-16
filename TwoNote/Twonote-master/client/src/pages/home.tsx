@@ -26,6 +26,8 @@ export default function Home(): ReactNode {
         and have fun!
         <br />I have zero answers for anyone as to why {"I'm"} doing this.
       </Text>
+      <br />
+      <img src = "IMG_0295.jpg"></img>
     </>
   );
 }
